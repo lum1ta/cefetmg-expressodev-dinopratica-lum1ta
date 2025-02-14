@@ -1,0 +1,49 @@
+body{
+  background-color:lightseagreen;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /*define a cor de fundo do site e as opções de fonte dele*/
+}
+div{
+  border:1px darkcyan;
+  background-color:wheat;
+  padding:10px;
+  lineheight:1.5;
+  border-radius:15px;
+  /*define a cor da caixa de texto,seu fundo,espaçamento,altura enfim*/
+}
+h1{
+  color:darkolivegreen;
+  text-align: center;
+}
+/*define a cor do titulo e seu alinhamento*/
+details{
+  border:1px darkgoldenrod;
+  background-color: bisque;
+  color:goldenrod;
+  padding:3px 5px;
+  margin-top: 3px;
+  border-radius: 5px;
+  font-size: 11pt;
+}
+summary{
+  cursor: pointer;
+  /*quando o mouse é passado por cima ele vira um pointer pq é algo clicável*/
+  padding:5px 2px;
+}
+details{
+  background-color: aquamarine;
+  color:darkcyan;
+  padding-left: 10px;
+  text-align: justify;line-height: 1.5;
+  font-size: 10pt;
+  /*especifica o tamanho da fonte*/
+}
+img{
+  float: left;
+  /*flutua em uma direção da página,nesse caso para a esquerda*/
+  height: 100px;
+  /*altura do elemento*/
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
